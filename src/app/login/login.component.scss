@@ -1,0 +1,61 @@
+.login-container{
+width: 100%;
+height: 100vh;
+background:linear-gradient(135deg,#ffe645 0%,#e2aa02 100%) ;
+position: relative;
+.logo {
+font-size: 60px;
+font-weight: bold;
+font-family: 'creepster',cursive;
+letter-spacing: 8px;
+position: absolute;
+top: 50px;
+right: 50px;
+}
+.desc{
+    font-size: 25px;
+    font-family: 'aladin',cursive;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    text-align: right;
+    width: 1200px;
+}
+.film{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    max-width: 60%;
+    height: auto;
+}
+.login-form{
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+ //   background-color: #fff;
+ background:linear-gradient(135deg,#ffe645 0%,#e2aa02 100%) ;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+  //  box-shadow: 5px 5px 20px #383838;
+    .form-group{
+        font-weight: bold;
+    }
+    label{
+        font-weight: bold;
+    }
+    .btn-container{
+        .btn{
+            margin-top: 30px;
+        }
+        .error{
+            font-size: large;
+            position: absolute;
+            top: 180px;
+            right: 35px;
+            color: rgb(255, 3, 3);
+        }
+    }
+}}

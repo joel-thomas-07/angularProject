@@ -1,0 +1,83 @@
+.home-container{
+    display: flex;
+    .all-movies{
+        width:75%;
+        min-height: calc(100vh - 80px);
+        border-right: 1px solid#fdc827;
+        padding: 20px 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        .top{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        
+        h4{
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            border-left: 5px solid #ff9900;
+            padding-left: 10px; ;
+        }
+        .view-all {
+            color:#ff9900;
+            cursor: pointer;
+        }
+        }
+        .movies-thumbnail{
+            display: flex;
+            column-gap: 3px;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            .movie{
+                .cover{
+                    img{
+                        border-radius:5px ;
+                    }
+                }
+                .details{
+                    width: 180px;
+                    .name {
+                        font-weight:80 ;
+                        height: 50px;
+                        margin-top: 5px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    .popular-movies{
+        width: 25%;
+        min-height: calc(100vh - 80px);
+        padding: 20px 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        h4{
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            border-left: 5px solid #ff9900;
+            padding-left: 10px; ;
+        }
+        .movie{
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .details{
+                width: 180px;
+                .name {
+                    font-weight:80 ;
+                    height: 50px;
+                    margin-top: 5px;
+                    cursor: pointer;
+                }
+            }
+        .rating{
+            color: red;
+            letter-spacing: 1px;
+        }
+    }
+
+    }
+}
